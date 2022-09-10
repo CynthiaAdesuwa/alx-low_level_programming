@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - printing
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-int d;
-for (d = 48; d <= 57; d++)
-putchar(d);
-if (d = 57)
+int c;
+for (c = 48; c <= 57; c++)
+putchar(c);
+if (c != 57)
 putchar(',');
 putchar(' ');
 		putchar('\n');
