@@ -10,8 +10,8 @@ int d;
 for (d = 48; d <= 57; d++)
 putchar (d);
 if (d != 57)
-putchar(' , ');
+putchar(',');
 putchar(' ');
-		putchar("\n");
+		putchar('\n');
 return (0);
 }
