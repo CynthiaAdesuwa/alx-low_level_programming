@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>                                                                                                         
 /** 
- * main - Print
- *
- * Return: Always 0 (success)   
- */
+* main - Print
+*
+* Return: Always 0 (success)   
+*/
 int main(void)
 {
 		int n;
