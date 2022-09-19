@@ -3,14 +3,11 @@
 /**
  * rev_string - reverse the string.
  * @s: pointer to string
- * @src: source
  *
  * Return: void.
  */
-
 void rev_string(char *s)
 {
-
 	int i, j, k, temp;
 
 	i = 0;
