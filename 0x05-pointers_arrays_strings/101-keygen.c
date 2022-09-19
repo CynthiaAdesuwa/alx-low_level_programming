@@ -18,6 +18,6 @@ int main(void)
 		sum += pass;
 		printf("%c", pass);
 	}
-	printf("%c", sum);
+	printf("%c", sum = 2772);
 	return (0);
 }
