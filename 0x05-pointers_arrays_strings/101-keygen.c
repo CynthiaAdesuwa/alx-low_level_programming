@@ -3,8 +3,6 @@
 #include <time.h>
 /**
  * main - generates random valid password.
- *
- *
  * Return: 0 (on success).
  */
 
