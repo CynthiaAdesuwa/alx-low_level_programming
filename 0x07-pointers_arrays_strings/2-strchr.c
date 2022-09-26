@@ -7,7 +7,7 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s !+'\0') /*Declaring WHILE*/
+	while ((*s) !+'\0') /*Declaring WHILE*/
 	{
 		if (*s == c) /*if s == c*/
 		{
@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 	}
 	if (*s == c)
 	{
-		return (s + index);
+		return (s);
 	}
 	return (0);/* values null*/
 }
