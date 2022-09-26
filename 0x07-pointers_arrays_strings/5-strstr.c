@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * _strstr - Locates a substring.
  * @haystack: The string to be searched.
@@ -26,4 +26,4 @@ char *_strstr(char *haystack, char *needle)
 		haystack++;
 	}
 	return ('\0');
-}                                                                                              
+}
