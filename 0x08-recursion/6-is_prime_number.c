@@ -9,7 +9,7 @@ int helperfunction(int n, int i)
 {
 	if (i <= n)
 	{
-		if (n % i == 0)
+		if (n % 1 == 0)
 		{
 			return (0);
 		}
@@ -25,7 +25,7 @@ int helperfunction(int n, int i)
 }
 
 /**
- * is_prime_number -  returns the 1 if n is prime
+ * is_prime_number -  checks if n is prime
  * @n: The number to be checked
  * Return: 1 if n is prime, 0 otherwise
  */
