@@ -21,10 +21,12 @@ int _sqrt(int n, int x)
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: The number to be used.
  * Return: the natural square root of n.
+ * -1 if n does not have a natural sqrt.
  */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (_sqrt(0, n));
+	else
+		return (_sqrt(n, 0));
 }
