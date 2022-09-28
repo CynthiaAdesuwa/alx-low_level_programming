@@ -20,7 +20,7 @@ int helperfunction(int n, int i)
 	}
 	else
 		{
-			return (i);
+			return (1);
 		}
 }
 
