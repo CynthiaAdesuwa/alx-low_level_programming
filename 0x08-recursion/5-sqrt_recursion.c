@@ -8,10 +8,13 @@
 int _sqrt(int n, int x)
 {
 	if ((x * x) == n)
+	{
 		return (x);
-	if (x * x == n)
+	}
+	if ((x * x) > n)
 		return (-1);
-	return (_sqrt(n, x + 1));
+	else
+		return (_sqrt(n, x + 1));
 }
 
 /**
