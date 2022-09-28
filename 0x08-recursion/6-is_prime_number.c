@@ -7,9 +7,9 @@
  */
 int helperfunction(int n, int i)
 {
-	if (i <= n)
+	if (i < n)
 	{
-		if (n % 1 == 0)
+		if (n % i == 0)
 		{
 			return (0);
 		}
