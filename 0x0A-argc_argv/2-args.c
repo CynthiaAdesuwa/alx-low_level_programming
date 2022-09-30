@@ -8,15 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	/*Declaring variables*/
-	int count = 0;
 
-	if (argc > 0)
+	int n;
+
+	for (n = 0; n < argc; n++)
 	{
-		/*WHILE - Print each arguments*/
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-		}
+		printf("%s\n", argv[n]);
 	}
+	return (0);
 }
