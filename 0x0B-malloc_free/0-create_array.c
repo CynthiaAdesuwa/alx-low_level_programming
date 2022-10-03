@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 
 	/* check if malloc was successful */
 	if
-		(arr == NULL);
+		(arr == NULL)
 	return (NULL);
 
 	for (i = 0; i < size; i++)
