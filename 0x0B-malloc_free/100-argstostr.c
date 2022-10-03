@@ -41,9 +41,9 @@ char *argstostr(int ac, char **av)
 			j = 0;
 			while (av[i][j])
 			{
-				arg[k] = (av[i][j]; j++)
+				arg[k] = (av[i][j]), j++;
 			}
-			arg[k] = ('\n'; k++)
+			arg[k] = '\n'; k++
 			i++;
 		}
 		arg[k] = '\0';
