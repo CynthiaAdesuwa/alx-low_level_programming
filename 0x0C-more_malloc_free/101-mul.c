@@ -185,8 +185,10 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 				putchar(final_prod[index]);
 		}
 		putchar('\n');
+
 		free(next_prod);
 		free(final_prod);
+
 		return (0);
 	}
 }
