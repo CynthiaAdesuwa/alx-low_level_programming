@@ -11,4 +11,4 @@ void _puts(char *str);
 int _atoi(const char *s);
 void print_int(unsigned long int n);
 
-#endif /*MAIN_H*/   
+#endif /*MAIN_H*/
