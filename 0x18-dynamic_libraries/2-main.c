@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- * 
+ *
  * Return: Always EXIT_SUCCESS.
  */
 char *_strcat(char *dest, char *src)
