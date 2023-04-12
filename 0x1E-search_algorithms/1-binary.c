@@ -1,8 +1,3 @@
-/*
- * File: 1-binary.c
- * Auth: Cynthia Osagie
- */
-
 #include "search_algos.h"
 
 /**
